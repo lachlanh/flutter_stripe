@@ -251,6 +251,7 @@ class GooglePayParams with _$GooglePayParams {
     ///
     /// Defaults to true.
     bool? allowCreditCards,
+    GooglePayShippingAddressConfig? shippingAddressConfig,
   }) = _GooglePayParams;
 
   factory GooglePayParams.fromJson(Map<String, dynamic> json) =>
